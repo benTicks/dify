@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./docker/docker-compose.yaml
+          file: ./docker/docker-compose.yml
           push: false
           tags: dify:latest
